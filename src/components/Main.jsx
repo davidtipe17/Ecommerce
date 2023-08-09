@@ -3,13 +3,7 @@ import React from "react";
 const Main = () => {
   return (
     <main>
-      <div
-        className="bg-cover bg-center text-white text-center flex flex-col items-center justify-center"
-        style={{
-          backgroundImage: "url(/path/to/random-image.jpg)",
-          height: "700px",
-        }}
-      >
+      <div className="bg-cover bg-center text-white text-center flex flex-col justify-end items-start background-image-main">
         <h1 className="font-poppins text-4xl font-bold mb-4">Product venta</h1>
       </div>
       <section className="flex items-center justify-center mt-8">
@@ -50,11 +44,11 @@ const Main = () => {
               className="w-32 h-32"
             />
             <div>
-            <p>Try at home for 100 days.</p>
-            <p>Free returns*</p>
-            <a href="#" className="font-bold underline">
-              Learn more
-            </a>
+              <p>Try at home for 100 days.</p>
+              <p>Free returns*</p>
+              <a href="#" className="font-bold underline">
+                Learn more
+              </a>
             </div>
           </div>
           <div className="border-l-2 border-yellow-500 h-32"></div>
@@ -65,10 +59,10 @@ const Main = () => {
               className="w-32 h-32"
             />
             <div>
-            <p>Free shipping both ways*</p>
-            <a href="#" className="font-bold underline">
-              Learn more
-            </a>
+              <p>Free shipping both ways*</p>
+              <a href="#" className="font-bold underline">
+                Learn more
+              </a>
             </div>
           </div>
         </div>
