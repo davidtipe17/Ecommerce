@@ -1,34 +1,18 @@
 import React from "react";
+import SeachTextNavbar from "./SeachTextNavbar";
 
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between bg-white h-16 px-6">
       <div className="flex items-center">
-        <span className="font-poppins font-bold text-xl">ARTDAV</span>
+        <span className="font-poppins font-bold text-4xl">ART & DAV</span>
       </div>
-      <div className="relative">
-        <input
-          className="border-b border-gray-400 pl-2 pr-10 py-1 focus:outline-none"
-          type="text"
-          placeholder="Search for products"
-        />
-        <img
-          src="src\assets\flecha-correcta.png"
-          alt="Search"
-          className="absolute right-2 top-1/2 transform -translate-y-1/2 w-8"
-        />
-        <img
-          src="\src\assets\lupa.png"
-          alt="Arrow"
-          className="absolute left-2 top-1/2 transform -translate-y-1/2"
-          style={{ width: "44px", height: "10px" }}
-        />
-      </div>
+      <SeachTextNavbar />
       <ul className="flex space-x-6">
         <span>
-        <li>
-          <a href="">New In</a>
-        </li>
+          <li>
+            <a href="">New In</a>
+          </li>
         </span>
         <li>
           <a href="">Sofas</a>

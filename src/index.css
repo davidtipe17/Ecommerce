@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
 .background-image-main {
   background-image: url(/src/assets/ROG_Machine-logo_Wallpaper_4K.jpg);
   height: 700px;
