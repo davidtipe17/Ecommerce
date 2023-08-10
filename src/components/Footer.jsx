@@ -23,14 +23,46 @@ const Footer = () => {
           >
             <h4 className="font-bold">SHOP</h4>
             <ul className="space-y-5">
-              <li>Sofas</li>
-              <li>Living</li>
-              <li>Dining</li>
-              <li>Workspace</li>
-              <li>Bedroom</li>
-              <li>Lighting</li>
-              <li>Rugs</li>
-              <li>Decor</li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Sofas
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Living
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Dining
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Workspace
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Bedroom
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Lighting
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Rugs
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Decor
+                </a>
+              </li>
             </ul>
           </div>
           <div
@@ -46,11 +78,31 @@ const Footer = () => {
               <a href="">COMPANY</a>
             </h4>
             <ul className="space-y-5">
-              <li>Reviews</li>
-              <li>About Us</li>
-              <li>Blog</li>
-              <li>Privacy Policy</li>
-              <li>Terms & Conditions</li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Reviews
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Privacy Policy
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Terms & Conditions
+                </a>
+              </li>
             </ul>
           </div>
           <div
@@ -64,9 +116,21 @@ const Footer = () => {
           >
             <h4 className="font-bold">ACCOUNT</h4>
             <ul className="space-y-5">
-              <li>Login / Register</li>
-              <li>Cart</li>
-              <li>Order Status</li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Login / Register
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Cart
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Order Status
+                </a>
+              </li>
             </ul>
           </div>
           <div
@@ -80,13 +144,41 @@ const Footer = () => {
           >
             <h4 className="font-bold">HELP</h4>
             <ul className="space-y-5">
-              <li>FAQ</li>
-              <li>Return Policy</li>
-              <li>Product Care</li>
-              <li>Poly & Bark Trade</li>
-              <li>Financing</li>
-              <li>Contact Us</li>
-              <li>Sitemap</li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  FAQ
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Return Policy
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Product Care
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Poly & Bark Trade
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Financing
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="#" class="hover:border-b-2 hover:border-white">
+                  Sitemap
+                </a>
+              </li>
             </ul>
           </div>
           <div
@@ -100,7 +192,11 @@ const Footer = () => {
           >
             <h4 className="font-bold">ACCESSIBILITY</h4>
             <ul className="space-y-5">
-              <p>FAQ</p>
+              <li>
+                <a href="" className="hover:border-b-2 hover:border-white">
+                  FAQ
+                </a>
+              </li>
             </ul>
           </div>
         </div>

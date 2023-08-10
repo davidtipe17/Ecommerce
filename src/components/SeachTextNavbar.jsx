@@ -29,7 +29,7 @@ const SeachTextNavbar = () => {
       <div className="absolute right-3 top-1/2 transform -translate-y-1/2">
         <button>
           <svg
-            className="w-11 h-2 text-yellow-500"
+            className="w-11 h-2 text-yellow-400"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 44 10"
